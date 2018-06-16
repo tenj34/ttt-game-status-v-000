@@ -45,4 +45,5 @@ def over?(board)
       return true
     end
   end
+  if draw?(board) == true
 end
