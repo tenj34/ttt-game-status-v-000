@@ -54,7 +54,7 @@ def winner(board)
   if !won?(board)
     return nil
   else
-  win_char = board[won?(board)[0]]
-
- end
+    win_char = board[won?(board)[0]]
+  end
+  return win_char
 end
