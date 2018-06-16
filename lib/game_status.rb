@@ -38,5 +38,7 @@ end
 
 #  returns true if the board has been won, is a draw, or is full
 def over?
-  won?(board) == true  ||  draw?(board) == true
+  if won?(board) == true  ||  draw?(board) == true
+    return true
+  end
 end
